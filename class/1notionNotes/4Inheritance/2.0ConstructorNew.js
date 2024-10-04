@@ -11,10 +11,15 @@ createIPhone1.prototype.dial = function () {
     // let obj = {}; // <magic 1>
     // Object.setPrototypeOf(obj, createIPhone1.prototype); // <magic 3>
   
-    obj.id = ID;
-    obj.color = color;
-    obj.display = display;
-    obj.weight = weight;
+    // obj.id = ID;  
+    // obj.color = color;
+    // obj.display = display;
+    // obj.weight = weight;
+
+      this.id = ID; //above obj <magic 4>
+      this.color = color;
+      this.display = display;
+      this.weight = weight;
   
     // return obj; // <magic 2>
   }

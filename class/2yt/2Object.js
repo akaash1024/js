@@ -20,7 +20,7 @@ function createUser(username, price){
 }
 
 createUser.prototype.increment = function(){
-    this.score++
+    this.price++
 }
 createUser.prototype.printMe = function(){
     console.log(`price is ${this.price}`);

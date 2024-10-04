@@ -57,3 +57,19 @@ class Person {
   console.log(john.salary);
 
   
+
+  //+++++++++++++++++++==//
+  let person = {
+    name: "Vivek",
+    yearsOld: 22,
+    set age(value) {
+      this.yearsOld = value;
+    },
+    get age() {
+      return this.yearsOld;
+    },
+  };
+  
+  console.log(person.age);
+  person.age = 50;
+  console.log(person.age);

@@ -17,6 +17,8 @@ const user = {
 // console.log(this);
 
 
+//constructor function
+
 function User(username, loginCount, isLoggedIn){
     this.username = username;
     this.loginCount = loginCount;
@@ -40,3 +42,21 @@ User.prototype.Akash = () => {
 }
 
 console.log(User.prototype) //return Akash
+
+
+
+/////////////////
+//working on Array
+
+
+arr = [1,2,3];
+
+Object.prototype.AkashArr = function(){
+    console.log("Object arr done")
+    }
+Array.prototype.AkashArrayArr = function () {
+    console.log("Array arr done")
+}
+//console in browser and checck differance
+
+//arr > Array > Object > null

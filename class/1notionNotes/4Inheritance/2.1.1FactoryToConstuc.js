@@ -7,14 +7,17 @@ createIPhone1.prototype.sendMessage = function () {
 };
 
 function createIPhone1(ID, color, display, weight) {
-  
+
+  //obj={}
+  //Object.setPrototypeOf(obj,createIPhone1.prototype)
 
   this.id = ID;
   this.color = color;
   this.display = display;
   this.weight = weight;
 
-  
+  //retunr obj={}
+
 }
 
 Object.setPrototypeOf(createIPhone2.prototype, createIPhone1.prototype);
