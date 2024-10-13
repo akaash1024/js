@@ -1,4 +1,8 @@
 >>>>>>>>>>>>>> everything is console <<<<<<<<<<<<<<<<<<<<<<
+
+
+JS founders; wiki page
+
 console.log(document)
 console.dir(document)
 console.log(document.baseURI)
@@ -95,32 +99,3 @@ myConvertedArray
 myConvertedArray.forEach(function (elemtnt){
 	element.style.color = 'blue'
     });
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

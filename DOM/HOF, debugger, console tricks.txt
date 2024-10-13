@@ -1,6 +1,6 @@
 //Higher Order Functions and Passing functions as arguments
 
-js Wikipedia
+js Wikipedia  //https://en.wikipedia.org/wiki/JavaScript
 
 select Js and inspect > 
 console $0 //its bind with the this element

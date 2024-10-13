@@ -15,6 +15,7 @@
 Converting Numbers and Booleans to Strings
 String(123) = "123"
 (123).toString() = "123"
+
 String(true) = "true"
 (false).toString() = "false"
 

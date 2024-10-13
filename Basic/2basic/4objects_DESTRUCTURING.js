@@ -55,7 +55,7 @@ const ob3 = {5: "Amarjeet", 6: "Bandana"}
 // console.log(Object.entries(tinderUser)); //return individual
 
 
-// console.log(tinderUser.hasOwnProperty('name')) //true //check property in object
+// console.log(tinderUser.hasOwnProperty('name')) //true //check property in object 🔴🔴Need
 // console.log(tinderUser.hasOwnProperty('email'))
 
 
