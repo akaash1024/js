@@ -8,10 +8,10 @@ function Introduce(greeting) {
   console.log(`${greet}! I am ${name} & I am ${age} years old.`);
 }
 
-// thisforCall = { name: "Vivek", age: 40 }
-// Introduce.call(thisforCall, "Hello");
+// ? thisforCall = { name: "Vivek", age: 40 }
+// ? Introduce.call(thisforCall, "Hello");
 
-//above line is alternate
+//! above line is alternate
  
 Introduce.call({ name: "Vivek", age: 40 }, "Hello");
 

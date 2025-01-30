@@ -84,7 +84,7 @@ console.log(jerry);
 //   };
 // }
 
-// // example invocation
+// ! example invocation
 // let tom = new CreateCat("Tom", 100);
 // let jerry = new CreateMouse("Jerry");
 
