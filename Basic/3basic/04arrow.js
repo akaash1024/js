@@ -1,7 +1,5 @@
 //https://www.youtube.com/watch?v=9ksqBa8_txM&list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37&index=23
 
-
-
 // //START
 // const user = {
 //     username: "Akash",
@@ -9,9 +7,9 @@
 //     welcomeMessage: function() {
 //         console.log(`${this.username} , welcome to website`); //Here "this.username works only with 'OBJECTS not work in function line.34 or around'" ///CURRENT CONTEXT
 
-            ////⚡note: we can't use the this keyword directly in an "Arrow function" in JavaScript because arrow functions don't have their own this keyword. 
+////⚡note: we can't use the this keyword directly in an "Arrow function" in JavaScript because arrow functions don't have their own this keyword.
 
-            //Instead, they inherit the this keyword from the parent scope. Using this in an arrow function will return an undefined value. 
+//Instead, they inherit the this keyword from the parent scope. Using this in an arrow function will return an undefined value.
 //         console.log(this); //will return current context
 //     }
 // }
@@ -25,18 +23,35 @@
 
 // //END
 
-
 // //START
 
 // function chai(){
 //     let userName = "Akash";
 //     console.log(this.userName);  //cant use "this.userName" like this in function works only in object.
-//     console.log(this);    
+//     console.log(this);
 // }
 // chai()
 
 // //END
 
+/*
+const user = {
+    username: "Akash",
+    price: 999,
+    welcomeMessage: function() {
+        console.log(`${this.username} , welcome to website`); 
+        console.log(this); 
+    }
+}
+! when user.function executed its global context was line.39 to 43
+function chai(){
+    let userName = "Akash";
+    console.log(this.userName);  //cant use "this.userName" like this in function works only in object.
+    console.log(this);    
+}
+chai()
+! but when chai() execute its global execution will (from line.52)
+*/
 
 // // ------------------------------
 // const chai2 = function(){
@@ -46,14 +61,13 @@
 // chai2()
 
 ////making arrow function using above code
-//// //simply remove function except brackets and after brackets add => voilaaaa. 
+//// //simply remove function except brackets and after brackets add => voilaaaa.
 
 // const chai = () => {
 //     let userName = "Akash2"
 //     console.log(this.userName); //AUS undefined
 // }
 // chai()
-
 
 ////////////// ______________________________________
 ////////////// starting pure arrow function from here
@@ -66,12 +80,12 @@
 
 // const addTwo = (num1, num2) => {
 //     return num1 + num2
-// }                            
+// }
 //orrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
 // const addTwo = (num1, num2) => num1 + num2
-// const addTwo = (num1, num2) => (num1 + num2) 
-const addTwo = (num1, num2) => ({name: "Test"}) //when you want to return object
+// const addTwo = (num1, num2) => (num1 + num2)
+const addTwo = (num1, num2) => ({ name: "Test" }); //when you want to return object
 
 ////////                 NOTE  - if brackets then no need to write "return" otherwise use in case of use parentheses
 
-console.log(addTwo(3,5)); //easy right.. with steps
+console.log(addTwo(3, 5)); //easy right.. with steps

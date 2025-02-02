@@ -12,7 +12,7 @@ engineer.prototype.code = function () {
   console.log(`<Coding>`);
 };
 
-Object.setPrototypeOf(engineer.prototype, person.prototype); //notes(*)
+Object.setPrototypeOf(engineer.prototype, person.prototype); // ! notes(*)
 
 engineer.prototype.code(); // <Coding>
 engineer.prototype.greet(); // Greeting!

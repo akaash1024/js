@@ -1,5 +1,4 @@
-// Immediately Invoked Function Expression
-
+// ! IIFE - Immediately Invoked Function Expression
 
 
 // what is IIFE, when we want to run our specific function starting executing after complete it.. . that time we need
@@ -12,7 +11,7 @@
 
 ////// ()() in first bracket we will write our function and in second you know well we learn earlier in last lesson '03arrow.js'
 
-(function chai(){  
+;(function chai(){  
     console.log('DB Connected');
 })(); 
 

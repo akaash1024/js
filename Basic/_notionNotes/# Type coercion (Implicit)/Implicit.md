@@ -17,7 +17,7 @@
     -   null == 0 "false"
     -   undefined == 0 "false"
 - '0' == false "true"
-- 'true' == true "false"
+- 'true' == true "true"
 - 5 + " apples" "5 apples" //String Concatenation
 - +"3.14" 3.14 //Unary Operators
 

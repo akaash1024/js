@@ -65,7 +65,11 @@ const ob3 = {5: "Amarjeet", 6: "Bandana"}
 const course = {
     courseName : "js in Hindi",
     price: 10000,
-    courseInstructor : "Hitesh"
+    
+    courseInstructor : {
+        name: "Hitesh",
+        age: 23,
+    }
 }
 
 // console.log(course.courseInstructor); //boring ?! 

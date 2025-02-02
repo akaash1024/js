@@ -23,3 +23,5 @@ Animal.prototype.sendMessage = function() {
 let a1 = new Animal(4, true);
 a1.eat(); // eating...
 a1.greet(); // Hi, I have 4 legs.
+console.log(Animal.prototype);
+

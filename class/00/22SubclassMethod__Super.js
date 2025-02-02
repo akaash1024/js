@@ -13,6 +13,7 @@ class Child extends Parent {
 
 const child = new Child();
 child.greet();
-// Output:
-// Hello from the Parent class!
-// And hello from the Child class!
+
+// ! Output:
+// ! Hello from the Parent class!
+// ! And hello from the Child class!
