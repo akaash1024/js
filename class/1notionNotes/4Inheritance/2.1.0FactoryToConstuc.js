@@ -28,8 +28,9 @@ createIPhone2.prototype.connectToInternet = function () {
   console.log("Connecting to internet...");
 };
 
-function createIPhone2(ID, color, display, weight, blueTooth, internet) { //as well as, coping already exiting property from "createIPhone1"
-  let obj = createIPhone1(ID, color, display, weight)
+function createIPhone2(ID, color, display, weight, blueTooth, internet) {
+  //as well as, coping already exiting property from "createIPhone1"
+  let obj = createIPhone1(ID, color, display, weight);
   Object.setPrototypeOf(obj, createIPhone2.prototype);
 
   // obj.id = ID;
